@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rco-smartnews-d-utt6",
+  "private_key_id": "39e30c08dba79ceb3f872c2dbd90779d13c088de",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC49rZ8vIJqZMPL\n/rn0TBiQ1qGzvuNrQ0tvOgZCfvRI+BWTc0GFOCHnCTEI5eHNioqfZ/hGQk4siEse\nE2JBrSW2fGjOJUaTjwwKbiVTC2IDXzmBaBywH0NFiGPUBtO/gn4wOhexdYysTKNK\nSZ2ctlmCHLHgGZMSi2mZI6WalLLdzn5AwJ9bXD8f82Jj+SzVRRGoSnoXeUf8NGFO\nCi0CPJhof3M/ZGoiuA0vOw8nw3YI5avg1NvrDt3SaIbukqtrpgOCdchONZSjSyVw\nNThcfnNuah05Fb+dR1G+29vdTRkmTL5vfp4DGXYapMjyE1kt70vPZwXiB92xDbUu\nK6Uryrx3AgMBAAECggEAMjCkKSnf+63XIYo//GYPvnG3VDaGsIsEs6xbmXyongpP\nlIDQdS1bqb0pRKBYivU+k23bhXkljFj5hTI+VdL9qkyNBe9AfPbyjfwAfc3XbVHQ\nIWjWbAY3s20Epbqqh8uJoV2KI1nh77kmEBj0v1sN48wUilp2ObCB2Y++NrmF5cDU\n9x8aCz+dFPbquWxocRVzFSslV0h6OmCDBf09ZEJH4v9BCQsL/pFN3Oa7qGT8g+Ka\nbufkpjwpoZeZCHpz4vJr7Ow4GK34lxK5HVSiq6a52QdfR8EYY/XCHnvvu8V5o9B1\nr9KyEwhaqF+BjsXCDk8cXjHqDhi4enK7Hf6OM38smQKBgQD5flRfU3rsYoOL8LVD\nrkROAHTwVoyxPGlp43Zw15UXCaJ737vX/bwZbHuNsg+MFHsUljv7FjNODhcgur8i\nCYXDQibuOJ1Krs35P12DpYTOZNGzTEiiIGvDuMDStU4ev0ZSJ6XOfPeHTQJ7pUkC\n8Aw73qmwh9fMa38XM4kn6TqO2QKBgQC9yZG2MKrLxm1CGeHuPcGlONth6ltNsAbG\nAROs8YugathjWzHaDDSZVVH/0govxi0/bAS9721RDL61aW9TQ+844g1hqU/cpn9f\nVjWZhIy43uGS4pxxPxIRox9NBSutUXsiJcve5RmNTq+j59pL7wbYutFTMV2gspAg\nr4vHHVwzzwKBgDe4xEVKEsEqu3CMwR8tk6nMJlHrMp7+/BgfKjvHmk+74iNCc+So\nkdMnzGx4IUrK5DZT22+XpLvBH986die28r4KT0GTOWYNpokNYuhdFk02bTNbTTmQ\nfiEHaWFmBt2NILqGilyUwn/gbjaJUsYqMMFKWKHJpSPNumPHKdHVIDP5AoGAI3CW\ngx0HZ9H/6Q4IQILLvFynqtsmfZVXTnY5BFx+pFAPZE5NOth4ogFqtIi2WkF5hZRY\nNleVZEMrAZlUronLDCY6NXh2b0+wDU995tL3rDYCjXk/mW4bo6uAVtOWWmESy0ef\nkFnbsaV16veKrg9Oif4oxI49W5q8iz38rgvvgcUCgYEAlhuAs6Rv8vzb0+LCQqrT\nsD7k0UK/Ruc+DlwKfYc6XNFfxPf/TzQds0yvdyQVvtz0zviksT3cH4w7+MdTRn4y\n1ir73AnBXZpEc4/O/WrDWUWcz8MoifmwdkdvfvHNHv8W1xa/hol9bx8x2cMeNorO\nRSqPLpi3ATjewSQXdaSnl/c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sa-k8s-smartnews-ms@rco-smartnews-d-utt6.iam.gserviceaccount.com",
+  "client_id": "116608892463183229024",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sa-k8s-smartnews-ms%40rco-smartnews-d-utt6.iam.gserviceaccount.com"
+}

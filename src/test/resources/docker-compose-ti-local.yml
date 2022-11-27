@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  postgres:
+    image: postgres:12.7-alpine
+    container_name: 'smartnews-visu-ms_postgresql'
+    ports:
+      - "5436:5432"
+    volumes:
+      - ./itdatas/IT_init_schema.sql:/docker-entrypoint-initdb.d/IT_init_schema.sql
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=docker

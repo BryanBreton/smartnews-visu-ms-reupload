@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+
+    <Properties>
+        <Property name="log-level-tech">${env:LOG_LEVEL_TECHNIQUES:-INFO}</Property>
+        <Property name="log-level-appli">${env:LOG_LEVEL_APPLICATIFS:-INFO}</Property>
+        <Property name="log-pattern">%d [%t] [smartnews-visu-ms,%X{X-B3-TraceId},%X{X-B3-SpanId},%X{X-Span-Export}] %-5p %c - %m%n</Property>
+    </Properties>
+    <Appenders>
+
+        <!-- ***********************************************************************
+            Définition des appenders  applicatifs
+        *********************************************************************-->
+
+        <Console name="consoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="${log-pattern}"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+
+        <!-- ***********************************************************************
+            definition des loggers Applicatifs
+        *********************************************************************-->
+        <Logger name="fr.su.smartnewsvisu" level="${log-level-appli}" additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+
+        <!-- ***********************************************************************
+            definition des loggers techniques
+        *********************************************************************-->
+        <Logger name="fr.su.out.osj.sutools" level="${log-level-tech}" additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+        <Logger name="fr.su.back" level="${log-level-tech}" additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+        <Logger name="fr.su.back.api.logging" level="${log-level-tech}" additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+        <Logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="${log-level-tech}"
+                additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+        <Logger name="org.hibernate.SQL" level="${log-level-tech}" additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+
+        <Logger name="org.hibernate.type" level="${log-level-tech}" additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+
+        <!-- ***********************************************************************
+            definition du root pour ne pas perdre de logs
+        *********************************************************************-->
+        <Root level="${log-level-tech}">
+            <AppenderRef ref="consoleAppender"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,28 @@
+{
+  "name": "smartnews-visu-api",
+  "description": "Module du projet smartnews-visu",
+  "version": "v1",
+  "context": "smartnews-visu-api",
+  "provider": "DED_RD",
+  "tiers": [
+    "Unlimited"
+  ],
+  "visibility": "PUBLIC",
+  "accessControl": "NONE",
+  "businessInformation": {
+    "businessOwner": "DED_RD",
+    "businessOwnerEmail": "claude.croguennoc@systeme-u.fr",
+    "technicalOwner": "",
+    "technicalOwnerEmail": ""
+  },
+  "x-auth-types": {
+    "default": "Application & Application User",
+    "Application": [],
+    "Application User": [],
+    "Application & Application User": [],
+    "None": []
+  },
+  "publish": false,
+  "internet": false,
+  "intranet": false
+}
